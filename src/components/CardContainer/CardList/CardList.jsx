@@ -1,8 +1,9 @@
 const CardList = () => {
 
   return (
-    <div>
-      <h1>Beer information inside the Cards</h1>
+    <div className="card-info">
+      <h1>Best Beer</h1>
+      <p>important beer info</p>
     </div>
   );
 };

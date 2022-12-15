@@ -2,7 +2,7 @@ const FilterList = () => {
 
   return (
     <div>
-      <h1>Filtered list of search categories</h1>
+      <p>Filtered list of search categories</p>
     </div>
   )
 }

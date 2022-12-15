@@ -5,12 +5,16 @@ import FilterItem from "../FilterItems"
 const Nav = () => {
 
   return (
+    <>
     <div className="Nav">
-      <h1>Nav Bar</h1>
-      <Searchbox />
-      <FilterItem />
-      <FilterList />
+      <h1>Nav Bar</h1>   
+        <div className="nav-inventory">
+          <Searchbox />
+          <FilterItem />
+          <FilterList />
+        </div>
     </div>
+    </>
   );
 };
 

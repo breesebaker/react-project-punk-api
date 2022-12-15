@@ -1,10 +1,14 @@
 const Searchbox = () => {
 
   return (
-    <div>
-      <h1>Searchbox for looking up beer</h1>
+    <div className="search-box">
+      <form>
+        <input type="text" placeholder="Brew Finder" />
+        <button>Search</button>
+      </form>
+
     </div>
-  )
-}
+  );
+};
 
 export default Searchbox;
