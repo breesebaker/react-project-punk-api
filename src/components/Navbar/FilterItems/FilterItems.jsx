@@ -2,7 +2,7 @@ const FilterItems = () => {
 
   return (
     <div>
-      <h1>Items to be Filters</h1>
+      <p>Items to be Filters</p>
     </div>
   );
 };
