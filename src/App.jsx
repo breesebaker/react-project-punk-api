@@ -1,11 +1,28 @@
-import './App.scss';
-import Main from './components/Main/Main'
+import NavBar from "./components/Navbar/NavBar";
+import Container from "./components/CardContainer/Container";
+import { useState } from "react";
 
-function App() {
+const App = () => {
+  const [searchResults, setSearchResults] = useState([]);
+  const [filterResults, setFilterResults] = useState([
+      { value: "newReleases", label: "New Releases" },
+      { value: "moreABV", label: "More ABV please" },
+      { value: "theClassics", label: "The Classics" },
+  ]);
+
   return (
-    <div className="App">
-      <Main />
-    </div>
+    <>
+      <div className="landing-page">
+        <NavBar 
+          setSearchResults={setSearchResults}
+          setFilterResults={setFilterResults}
+        />
+        <Container
+          searchResults={searchResults} 
+          filterResults={filterResults}
+        />
+      </div>
+    </>
   );
 }
 
