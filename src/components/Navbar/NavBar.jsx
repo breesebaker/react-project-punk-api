@@ -23,10 +23,7 @@ const NavBar = (props) => {
     <>
       <div className="navbar">
         <div className="navbar-title">
-          <a href="/">
-            <h1>_nology</h1>
-            <p>Brew Dog Punk API </p>
-          </a>
+            <h1>BrewDog Punk API</h1>
         </div>
         <div className="navbar-content">
           <SearchBox searchEvent={searchEvent} />
