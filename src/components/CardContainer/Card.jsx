@@ -1,10 +1,5 @@
 const Card = (props) => {
-
-  return (
-      <div className="">
-          
-      </div>
-  );
-}
+  return <div className="beer-card" />;
+};
 
 export default Card;

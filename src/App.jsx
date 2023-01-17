@@ -5,25 +5,25 @@ import { useState } from "react";
 const App = () => {
   const [searchResults, setSearchResults] = useState([]);
   const [filterResults, setFilterResults] = useState([
-      { value: "newReleases", label: "New Releases" },
-      { value: "moreABV", label: "More ABV please" },
-      { value: "theClassics", label: "The Classics" },
+    { value: "newReleases", label: "New Releases" },
+    { value: "moreABV", label: "More ABV please" },
+    { value: "theClassics", label: "The Classics" },
   ]);
 
   return (
     <>
       <div className="landing-page">
-        <NavBar 
+        <NavBar
           setSearchResults={setSearchResults}
           setFilterResults={setFilterResults}
         />
         <Container
-          searchResults={searchResults} 
+          searchResults={searchResults}
           filterResults={filterResults}
         />
       </div>
     </>
   );
-}
+};
 
 export default App;
