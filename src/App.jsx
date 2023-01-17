@@ -5,9 +5,9 @@ import { useState } from "react";
 const App = () => {
   const [searchResults, setSearchResults] = useState([]);
   const [filterResults, setFilterResults] = useState([
-    { value: "newReleases", label: "New Releases" },
-    { value: "moreABV", label: "More ABV please" },
-    { value: "theClassics", label: "The Classics" },
+    { value: "highABV", label: "High ABV" },
+    { value: "classics", label: "Classic Range" },
+    { value: "acid", label: "Acidic Levels" },
   ]);
 
   return (

@@ -5,7 +5,7 @@ const SearchBox = (props) => {
       <>
       <div className="searchbox">
           <form>
-              <input type="text" placeholder="Find your beer" onChange={searchEvent} />
+              <input type="text" placeholder="Search your brew" onChange={searchEvent} />
           </form>  
       </div>
       </>

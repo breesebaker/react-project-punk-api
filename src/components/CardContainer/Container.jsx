@@ -6,9 +6,6 @@ const Container = (props) => {
 
   return (
     <div className="Container">
-      <div className="Container-logo">
-        <img src="./logo.png" alt="logo" />
-      </div>
       <div className="Container-content">
         <h1>Your Search Results!</h1>
       </div>
