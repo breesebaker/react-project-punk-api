@@ -1,4 +1,4 @@
-import SearchBox from "../../SearchBox";
+import SearchBox from "./SearchBox";
 import FilterItem from "./FilterItem";
 import FilterList from "./FilterList";
 
