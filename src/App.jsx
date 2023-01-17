@@ -12,7 +12,7 @@ const App = () => {
 
   return (
     <>
-      <div className="landing-page">
+      <div className="main-page">
         <NavBar
           setSearchResults={setSearchResults}
           setFilterResults={setFilterResults}
